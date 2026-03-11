@@ -30,6 +30,12 @@ Total Solved: 0 problems
 
 ---
 
+## Progress Tracker
+<!-- PROGRESS-START -->
+<!-- PROGRESS-END -->
+
+---
+
 ## Topics Covered
 
 - Array
