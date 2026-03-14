@@ -26,9 +26,8 @@ This repository records my LeetCode practice and solutions in 2026.
 | Stack | 1 |
 | String | 6 |
 | Tree | 0 |
-| **Total** | 20 |
 
-Total Solved: 0 problems
+**Total Solved: 20 problems**
 
 <!-- PROGRESS-END -->
 
