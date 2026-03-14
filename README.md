@@ -9,29 +9,6 @@ This repository records my LeetCode practice and solutions in 2026.
 
 ## Progress Tracker
 
-| Category | Solved |
-|--------|--------|
-| Array | 0 |
-| Binary Search | 0 |
-| Brute Force | 0 |
-| Dynamic Programming | 0 |
-| Graph | 0 |
-| Greedy | 0 |
-| Hash Table | 0 |
-| Linked List | 0 |
-| Math | 0 |
-| Optimized | 0 |
-| Sliding Window | 0 |
-| Stack | 0 |
-| String | 0 |
-| Tree | 0 |
-
-Total Solved: 0 problems
-
----
-
-## Progress Tracker
-
 <!-- PROGRESS-START -->
 | Folder | Solved |
 |--------|--------|
@@ -50,6 +27,9 @@ Total Solved: 0 problems
 | String | 6 |
 | Tree | 0 |
 | **Total** | 20 |
+
+Total Solved: 0 problems
+
 <!-- PROGRESS-END -->
 
 
