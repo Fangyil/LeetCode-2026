@@ -9,8 +9,8 @@ FOLDERS = ["Array", "BinarySearch", "BruteForce", "DynamicProgramming", "Graph",
            "Greedy", "HashTable", "LinkedList", "Math", "Optimized", 
            "SlidingWindow", "Stack", "String", "Tree"]
 
-PROGRESS_START = "<!-- PROGRESS-START -->"
-PROGRESS_END = "<!-- PROGRESS-END -->"
+PROGRESS_START = "<!-- TOPICS-START -->"
+PROGRESS_END = "<!-- TOPICS-END -->"
 # =================
 
 # 1️⃣ 統計每個資料夾題目數
