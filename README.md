@@ -8,10 +8,17 @@ This repository records my LeetCode practice and solutions in 2026.
 ---
 
 ## Progress Tracker
+<!-- PROGRESS-START -->
+<!-- PROGRESS-END -->
+---
 
+## Topics Cover
+<!-- TOPICS-START -->
+<!-- TOPICS-END -->
 
+---
 
-
+## Problem List
 
 
 <!-- PROBLEMS-START -->
