@@ -1,6 +1,7 @@
 import os
 import re
 import requests
+from collections import defaultdict
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 README_FILE = os.path.join(ROOT_DIR, "README.md")
@@ -12,7 +13,9 @@ FOLDERS = ["Array","BinarySearch","BruteForce","DynamicProgramming","Graph",
 START = "<!-- PROBLEMS-START -->"
 END = "<!-- PROBLEMS-END -->"
 
+# -----------------------------
 # 🔗 抓 LeetCode 題目資料
+# -----------------------------
 print("Fetching LeetCode data...")
 url = "https://leetcode.com/api/problems/all/"
 data = requests.get(url).json()
@@ -34,8 +37,10 @@ def color(diff):
         "Hard": "🔴 Hard"
     }[diff]
 
-problems = []
-easy = medium = hard = 0
+# -----------------------------
+# 🔹 整理檔案
+# -----------------------------
+problems_dict = defaultdict(list)  # key=ID, value=[(title, diff, method, link)]
 
 for folder in FOLDERS:
     path = os.path.join(ROOT_DIR, folder)
@@ -48,47 +53,62 @@ for folder in FOLDERS:
 
         name = f.replace(".cpp","")
         parts = name.split("_")
-
         if len(parts) < 2:
             continue
 
         pid = parts[0]
         title = parts[1]
-        method = parts[-1]   # 最後一個當 method
+        method = parts[-1]  # 最後一個當 method
 
         # 自動補 difficulty
         difficulty = get_diff(pid)
 
-        # 統計
-        if difficulty == "Easy": easy += 1
-        elif difficulty == "Medium": medium += 1
-        else: hard += 1
+        # Title 格式化
+        title_fmt = re.sub(r'([a-z])([A-Z])', r'\1 \2', title)
 
-        # Title spacing
-        title = re.sub(r'([a-z])([A-Z])', r'\1 \2', title)
-
-        # 🔗 link
-        slug = title.lower().replace(" ", "-")
+        # 🔗 生成 LeetCode link
+        slug = title_fmt.lower().replace(" ", "-")
         link = f"https://leetcode.com/problems/{slug}/"
 
-        problems.append((int(pid), pid, title, difficulty, method, link))
+        # 存進 dict
+        problems_dict[pid].append((title_fmt, difficulty, method, link))
 
-problems.sort()
-
-# ==== README 區塊 ====
+# -----------------------------
+# 🔹 生成 README 區塊
+# -----------------------------
 section = "\n" + START + "\n"
 
-section += f"**Total:** {len(problems)}  \n"
+total = len(problems_dict)
+easy = medium = hard = 0
+
+section += f"**Total:** {total}  \n"
+
+# 先排序 ID
+for pid in problems_dict:
+    # 取第一個題目的 difficulty（全部方法同一題目，diff 一致）
+    diff = problems_dict[pid][0][1]
+    if diff == "Easy": easy += 1
+    elif diff == "Medium": medium += 1
+    else: hard += 1
+
 section += f"🟢 Easy: {easy} | 🟠 Medium: {medium} | 🔴 Hard: {hard}\n\n"
 
 section += "| # | Title | Difficulty | Solution |\n"
 section += "|---|-------|------------|----------|\n"
 
-for _, pid, title, diff, method, link in problems:
-    section += f"| [{pid}]({link}) | {title} | {color(diff)} | {method} |\n"
+for pid in sorted(problems_dict.keys(), key=lambda x: int(x)):
+    entries = problems_dict[pid]
+    title = entries[0][0]
+    diff = entries[0][1]
+    link = entries[0][3]
+    methods = " / ".join([e[2] for e in entries])
+    section += f"| {pid} | [{title}]({link}) | {color(diff)} | {methods} |\n"
 
 section += END + "\n"
 
+# -----------------------------
+# 🔹 寫回 README
+# -----------------------------
 with open(README_FILE, "r", encoding="utf-8") as f:
     readme = f.read()
 
@@ -97,4 +117,4 @@ readme = re.sub(f"{START}.*?{END}", section, readme, flags=re.DOTALL)
 with open(README_FILE, "w", encoding="utf-8") as f:
     f.write(readme)
 
-print("🔥 README updated with auto difficulty!")
+print("🔥 README updated with merged solutions!")
