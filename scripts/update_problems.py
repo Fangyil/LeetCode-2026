@@ -71,7 +71,7 @@ for folder in FOLDERS:
         link = f"https://leetcode.com/problems/{slug}/"
 
         # 存進 dict
-        problems_dict[pid].append((title_fmt, difficulty, method, link, folder, filename))
+        problems_dict[pid].append((title_fmt, difficulty, method, link, folder, path))
 
 # -----------------------------
 # 🔹 生成 README 區塊
