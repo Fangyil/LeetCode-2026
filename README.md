@@ -27,7 +27,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | String | 6 |
 | Tree | 0 |
 
-**Total Solved: 20 problems**
+Total Solved: **20 problems**
 
 <!-- PROGRESS-END -->
 
@@ -78,15 +78,6 @@ This repository records my LeetCode practice and solutions in 2026.
 | 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | 🟢 Easy | BruteForce |
 | 1980 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/) | 🟠 Medium | Optimized |
 <!-- PROBLEMS-END -->
-
-
-
-## Problem List
-
-| # | Title | Difficulty | Solution |
-|---|------|-----------|---------|
-| 0005 | Longest Palindromic Substring | Medium | DP / Center |
-| 0010 | Regular Expression Matching | Hard | DP |
 
 ---
 
