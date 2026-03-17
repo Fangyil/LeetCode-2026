@@ -31,7 +31,7 @@ progress_lines = ["\n", PROGRESS_START, "\n",
                   "|--------|--------|\n"]
 for folder, count in folder_counts:
     progress_lines.append(f"| {folder} | {count} |\n")
-progress_lines.append(f"Total Solved: **{total_count} problems **\n")
+# progress_lines.append(f"Total Solved: **{total_count} problems **\n")
 progress_lines.append(PROGRESS_END)
 progress_lines.append("\n")
 
