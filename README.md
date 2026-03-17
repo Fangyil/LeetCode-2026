@@ -9,6 +9,14 @@ This repository records my LeetCode practice and solutions in 2026.
 
 ## Progress Tracker
 
+<!-- PROBLEMS-START -->
+🟢 Easy: 7 | 🟠 Medium: 7 | 🔴 Hard: 0
+<!-- PROGRESS-END -->
+
+---
+
+## Topics Cover
+
 <!-- PROGRESS-START -->
 | Folder | Solved |
 |--------|--------|
@@ -37,7 +45,6 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 <!-- PROBLEMS-START -->
-🟢 Easy: 7 | 🟠 Medium: 7 | 🔴 Hard: 0
 
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
