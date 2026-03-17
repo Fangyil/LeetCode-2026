@@ -25,9 +25,10 @@ jobs:
         run: pip install requests
 
       - name: Run script
-        run: python scripts/update_problems.py
-             python scripts/update_topics.py
-             python scripts/update_progress.py
+        run: |
+          python scripts/update_problems.py
+          python scripts/update_topics.py
+          python scripts/update_progress.py
 
       - name: Commit changes
         run: |
