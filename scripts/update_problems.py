@@ -99,7 +99,7 @@ for pid in sorted(problems_dict.keys(), key=lambda x: int(x)):
     diff = entries[0][1]
     link = entries[0][3]
     methods = " / ".join([e[2] for e in entries])
-    section += f"| [{pid}]({link}) | {title} | {color(diff)} | {methods} |\n"
+    section += f"| {pid} | {title} | [{color(diff)}]({link}) | {methods} |\n"
 
 section += END + "\n"
 
