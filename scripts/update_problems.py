@@ -57,7 +57,7 @@ for folder in FOLDERS:
             continue
 
         pid = parts[0]
-         = parts[1]
+        title = parts[1]
         method = parts[-1]  # 最後一個當 method
 
         # 自動補 difficulty
