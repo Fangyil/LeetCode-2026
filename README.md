@@ -50,28 +50,35 @@ This repository records my LeetCode practice and solutions in 2026.
 
 ## Problem List
 
+
 <!-- PROBLEMS-START -->
-- 0003_LongestSubstringWithoutRepeatingCharacters_BruteForce
-- 0003_LongestSubstringWithoutRepeatingCharacters_BruteForceUpdate
-- 0008_StringtoInteger(atoi)_BruteForce
-- 1582_SpecialPositionsInaBinaryMatrix_BruteForce
-- 1680_ConcatenationOfConsecutiveBinaryNumbers_Bruteforce
-- 1758_MinimumChangesToMakeAlternatingBinaryString_BruteForce
-- 1545_FindKthBitinNthBinaryString_DP
-- 0013_RomantoInteger_HashTable
-- 0021_MergeTwoSortedLists_LinkedList
-- 0007_ReverseInteger_Math
-- 1582_SpecialPositionsInaBinaryMatrix_RowColSum
-- 1980_FindUniqueBinaryString_Optimized
-- 0003_LongestSubstringWithoutRepeatingCharacters_SlidingWindow
-- 0020_ValidParentheses_Stack
-- 0006_ZigzagConversion_String
-- 0008_StringtoInteger(atoi)_String
-- 0009_PalindromeNumber_String
-- 0013_RomantoInteger_String
-- 0014_LongestCommonPrefix_String
-- 1545_FindKthBitinNthBinaryString_String
+**Total:** 20  
+🟢 Easy: 9 | 🟠 Medium: 11 | 🔴 Hard: 0
+
+| # | Title | Difficulty | Solution |
+|---|-------|------------|----------|
+| 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟠 Medium | BruteForce |
+| 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟠 Medium | BruteForceUpdate |
+| 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟠 Medium | SlidingWindow |
+| 0006 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | 🟠 Medium | String |
+| 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟠 Medium | Math |
+| 0008 | [Stringto Integer(atoi)](https://leetcode.com/problems/stringto-integer(atoi)/) | 🟠 Medium | BruteForce |
+| 0008 | [Stringto Integer(atoi)](https://leetcode.com/problems/stringto-integer(atoi)/) | 🟠 Medium | String |
+| 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | String |
+| 0013 | [Romanto Integer](https://leetcode.com/problems/romanto-integer/) | 🟢 Easy | HashTable |
+| 0013 | [Romanto Integer](https://leetcode.com/problems/romanto-integer/) | 🟢 Easy | String |
+| 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 Easy | String |
+| 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 Easy | Stack |
+| 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | LinkedList |
+| 1545 | [Find Kth Bitin Nth Binary String](https://leetcode.com/problems/find-kth-bitin-nth-binary-string/) | 🟠 Medium | DP |
+| 1545 | [Find Kth Bitin Nth Binary String](https://leetcode.com/problems/find-kth-bitin-nth-binary-string/) | 🟠 Medium | String |
+| 1582 | [Special Positions Ina Binary Matrix](https://leetcode.com/problems/special-positions-ina-binary-matrix/) | 🟢 Easy | BruteForce |
+| 1582 | [Special Positions Ina Binary Matrix](https://leetcode.com/problems/special-positions-ina-binary-matrix/) | 🟢 Easy | RowColSum |
+| 1680 | [Concatenation Of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | 🟠 Medium | Bruteforce |
+| 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | 🟢 Easy | BruteForce |
+| 1980 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/) | 🟠 Medium | Optimized |
 <!-- PROBLEMS-END -->
+
 
 
 ## Problem List
