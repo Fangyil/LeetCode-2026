@@ -80,8 +80,6 @@ section = "\n" + START + "\n"
 
 easy = medium = hard = 0
 
-section += f"**Total:** {total}  \n"
-
 # 先排序 ID
 for pid in problems_dict:
     # 取第一個題目的 difficulty（全部方法同一題目，diff 一致）
