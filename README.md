@@ -11,15 +11,17 @@ This repository records my LeetCode practice and solutions in 2026.
 ## Progress Tracker
 
 
+
 <!-- PROGRESS-START -->
 🟢 Easy: 7 | 🟠 Medium: 7 | 🔴 Hard: 0
 
-<!-- PROGRESS-END -->
+
 
 ---
 
 
 ## Topics Cover
+
 
 <!-- TOPICS-START -->
 | Folder | Solved |
@@ -42,10 +44,12 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 ---
 
 
 ## Problem List
+
 
 
 
@@ -71,3 +75,4 @@ This repository records my LeetCode practice and solutions in 2026.
 | 1758 | Minimum Changes To Make Alternating Binary String | [![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/BruteForce/1758_MinimumChangesToMakeAlternatingBinaryString_BruteForce.cpp) |
 | 1980 | Find Unique Binary String | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/find-unique-binary-string/) | [Optimized](https://github.com/Fangyil/LeetCode-2026/blob/main/Optimized/1980_FindUniqueBinaryString_Optimized.cpp) |
 <!-- PROBLEMS-END -->
+
