@@ -29,21 +29,6 @@ This repository records my LeetCode practice and solutions in 2026.
 
 <!-- PROGRESS-END -->
 
-
----
-
-## Topics Covered
-
-- Array
-- Binary Search
-- Dynamic Programming
-- Graph
-- Tree
-- Greedy
-- Sliding Window
-- Stack
-- Two Pointers
-
 ---
 
 ## Problem List
