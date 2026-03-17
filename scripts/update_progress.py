@@ -10,8 +10,8 @@ FOLDERS = ["Array","BinarySearch","BruteForce","DynamicProgramming","Graph",
            "Greedy","HashTable","LinkedList","Math","Optimized",
            "SlidingWindow","Stack","String","Tree"]
 
-START = "<!-- PROBLEMS-START -->"
-END = "<!-- PROBLEMS-END -->"
+START = "<!-- PROGRESS-START -->"
+END = "<!-- PROGRESS-END -->"
 
 # -----------------------------
 # 🔗 抓 LeetCode 題目資料
