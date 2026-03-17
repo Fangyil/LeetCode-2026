@@ -32,9 +32,9 @@ def get_diff(qid):
 
 def color(diff):
     return {
-        "Easy": "🟢 Easy",
-        "Medium": "🟠 Medium",
-        "Hard": "🔴 Hard"
+        "Easy": "![Easy](https://img.shields.io/badge/Easy-green)",
+        "Medium": "![Medium](https://img.shields.io/badge/Medium-orange)",
+        "Hard": "![Hard](https://img.shields.io/badge/Hard-red)"
     }[diff]
 
 # -----------------------------
@@ -78,7 +78,6 @@ for folder in FOLDERS:
 # -----------------------------
 section = "\n" + START + "\n"
 
-total = len(problems_dict)
 easy = medium = hard = 0
 
 section += f"**Total:** {total}  \n"
