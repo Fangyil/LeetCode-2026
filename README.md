@@ -51,6 +51,7 @@ Total Solved: **20 problems**
 ## Problem List
 
 
+
 <!-- PROBLEMS-START -->
 **Total:** 20  
 🟢 Easy: 9 | 🟠 Medium: 11 | 🔴 Hard: 0
@@ -78,6 +79,7 @@ Total Solved: **20 problems**
 | 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | 🟢 Easy | BruteForce |
 | 1980 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/) | 🟠 Medium | Optimized |
 <!-- PROBLEMS-END -->
+
 
 ---
 
