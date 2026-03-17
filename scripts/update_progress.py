@@ -14,7 +14,7 @@ PROGRESS_END = "<!-- PROGRESS-END -->"
 # =================
 
 # 1️⃣ 統計每個資料夾題目數
-total_count = 0
+# total_count = 0
 folder_counts = []
 for folder in FOLDERS:
     path = os.path.join(ROOT_DIR, folder)
@@ -23,7 +23,7 @@ for folder in FOLDERS:
     else:
         count = 0
     folder_counts.append((folder, count))
-    total_count += count
+    # total_count += count
 
 # 2️⃣ 生成 Markdown 表格
 progress_lines = ["\n", PROGRESS_START, "\n",
@@ -50,4 +50,4 @@ else:
 with open(README_FILE, "w", encoding="utf-8") as f:
     f.write(updated_readme)
 
-print(f"README.md updated! Total solved: {total_count}")
+print(f"README.md updated!")
