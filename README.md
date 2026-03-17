@@ -61,6 +61,7 @@ Total Solved: **20 problems**
 
 
 
+
 <!-- PROBLEMS-START -->
 🟢 Easy: 7 | 🟠 Medium: 7 | 🔴 Hard: 0
 
@@ -77,10 +78,11 @@ Total Solved: **20 problems**
 | 0021 | Merge Two Sorted Lists | [![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/merge-two-sorted-lists/) | [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/LinkedList/0021_MergeTwoSortedLists_LinkedList.cpp) |
 | 1545 | Find Kth Bitin Nth Binary String | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/find-kth-bitin-nth-binary-string/) | [DP](https://github.com/Fangyil/LeetCode-2026/blob/main/DP/1545_FindKthBitinNthBinaryString_DP.cpp) / [String](https://github.com/Fangyil/LeetCode-2026/blob/main/String/1545_FindKthBitinNthBinaryString_String.cpp) |
 | 1582 | Special Positions Ina Binary Matrix | [![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/special-positions-ina-binary-matrix/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/BruteForce/1582_SpecialPositionsInaBinaryMatrix_BruteForce.cpp) / [RowColSum](https://github.com/Fangyil/LeetCode-2026/blob/main/RowColSum/1582_SpecialPositionsInaBinaryMatrix_RowColSum.cpp) |
-| 1680 | Concatenation Of Consecutive Binary Numbers | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | [Bruteforce](https://github.com/Fangyil/LeetCode-2026/blob/main/Bruteforce/1680_ConcatenationOfConsecutiveBinaryNumbers_Bruteforce.cpp) |
+| 1680 | Concatenation Of Consecutive Binary Numbers | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/BruteForce/1680_ConcatenationOfConsecutiveBinaryNumbers_BruteForce.cpp) |
 | 1758 | Minimum Changes To Make Alternating Binary String | [![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/BruteForce/1758_MinimumChangesToMakeAlternatingBinaryString_BruteForce.cpp) |
 | 1980 | Find Unique Binary String | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/find-unique-binary-string/) | [Optimized](https://github.com/Fangyil/LeetCode-2026/blob/main/Optimized/1980_FindUniqueBinaryString_Optimized.cpp) |
 <!-- PROBLEMS-END -->
+
 
 
 
