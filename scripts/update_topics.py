@@ -1,4 +1,4 @@
-# scripts/update_readme_progress.py
+# scripts/update_readme_topics.py
 import os
 import re
 
