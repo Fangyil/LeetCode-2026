@@ -85,7 +85,7 @@ section += "| # | Title | Difficulty | Solution |\n"
 section += "|---|-------|------------|----------|\n"
 
 for _, pid, title, diff, method, link in problems:
-    section += f"| {pid} | [{title}]({link}) | {color(diff)} | {method} |\n"
+    section += f"| {pid}({link}) | [{title}] | {color(diff)} | {method} |\n"
 
 section += END + "\n"
 
