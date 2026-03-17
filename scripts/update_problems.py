@@ -32,9 +32,9 @@ def get_diff(qid):
 
 def color(diff):
     return {
-        "Easy": "![Easy](https://img.shields.io/badge/Easy-green)",
+        "Easy": "![Easy](https://img.shields.io/badge/%20Easy%20-green)",
         "Medium": "![Medium](https://img.shields.io/badge/Medium-orange)",
-        "Hard": "![Hard](https://img.shields.io/badge/Hard-red)"
+        "Hard": "![Hard](https://img.shields.io/badge/%20Hard%20-red)"
     }[diff]
 
 # -----------------------------
