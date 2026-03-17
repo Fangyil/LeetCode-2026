@@ -57,7 +57,7 @@ for folder in FOLDERS:
             continue
 
         pid = parts[0]
-        title = parts[1]
+         = parts[1]
         method = parts[-1]  # 最後一個當 method
 
         # 自動補 difficulty
@@ -71,7 +71,7 @@ for folder in FOLDERS:
         link = f"https://leetcode.com/problems/{slug}/"
 
         # 存進 dict
-        problems_dict[pid].append((title_fmt, difficulty, method, link))
+        problems_dict[pid].append((title_fmt, difficulty, method, lc_link, folder, filename))
 
 # -----------------------------
 # 🔹 生成 README 區塊
@@ -98,7 +98,20 @@ for pid in sorted(problems_dict.keys(), key=lambda x: int(x)):
     title = entries[0][0]
     diff = entries[0][1]
     link = entries[0][3]
-    methods = " / ".join([e[2] for e in entries])
+           
+    seen = set()
+    links = []
+    for e in entries:
+           method = e[2]
+           if method in seen:
+               continue
+           seen.add(method)
+           folder = e[4]
+           filename = e[5]
+           file_url = f"https://github.com/Fangyil/LeetCode-2026/blob/main/{folder}/{filename}"
+           links.append(f"[{method}]({file_url})")
+    methods = " / ".join(links)
+
     section += f"| {pid} | {title} | [{color(diff)}]({link}) | {methods} |\n"
 
 section += END + "\n"
