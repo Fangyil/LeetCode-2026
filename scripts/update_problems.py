@@ -88,7 +88,7 @@ for pid in problems_dict:
     elif diff == "Medium": medium += 1
     else: hard += 1
 
-section += f"🟢 Easy: {easy} | 🟠 Medium: {medium} | 🔴 Hard: {hard}\n\n"
+# section += f"🟢 Easy: {easy} | 🟠 Medium: {medium} | 🔴 Hard: {hard}\n\n"
 
 section += "| # | Title | Difficulty | Solution |\n"
 section += "|---|-------|------------|----------|\n"
