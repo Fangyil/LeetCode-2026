@@ -1,0 +1,46 @@
+name: Cleanup macOS Junk Files
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # 每天執行
+  workflow_dispatch:       # 手動觸發
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      # 🧹 清理 macOS 垃圾檔
+      - name: Remove macOS junk files
+        run: |
+          echo "Cleaning .DS_Store and macOS hidden files..."
+          find . -name ".DS_Store" -type f -delete
+          find . -name "._*" -type f -delete
+
+      # 🔍 檢查是否有變更
+      - name: Check for changes
+        id: git_status
+        run: |
+          if [[ -n $(git status --porcelain) ]]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      # 💾 只有有變更才 commit
+      - name: Commit & Push
+        if: steps.git_status.outputs.changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "🧹 Cleanup macOS junk files"
+          git push
+
+      # ℹ️ 沒變更時提示
+      - name: No changes
+        if: steps.git_status.outputs.changes == 'false'
+        run: echo "No junk files found 🎉"
