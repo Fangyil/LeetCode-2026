@@ -55,15 +55,16 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- TOPICS-START -->
 | Folder | Solved |
 |--------|--------|
-| [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | 0 |
-| [BinarySearch](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/BinarySearch) | 0 |
+| Array | 0 |
+| BinarySearch | 0 |
 | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/BruteForce) | 6 |
 | [DynamicProgramming](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/DynamicProgramming) | 1 |
-| [Graph](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Graph) | 0 |
-| [Greedy](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Greedy) | 0 |
+| Graph | 0 |
+| Greedy | 0 |
 | [HashTable](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/HashTable) | 1 |
 | [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList) | 1 |
 | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | 1 |
@@ -71,8 +72,9 @@ This repository records my LeetCode practice and solutions in 2026.
 | [SlidingWindow](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/SlidingWindow) | 1 |
 | [Stack](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Stack) | 1 |
 | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 6 |
-| [Tree](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Tree) | 0 |
+| Tree | 0 |
 <!-- TOPICS-END -->
+
 
 
 
@@ -151,6 +153,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROBLEMS-START -->
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
@@ -169,6 +172,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | 1758 | Minimum Changes To Make Alternating Binary String | [![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/BruteForce/1758_MinimumChangesToMakeAlternatingBinaryString_BruteForce.cpp) |
 | 1980 | Find Unique Binary String | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/find-unique-binary-string/) | [Optimized](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Optimized/1980_FindUniqueBinaryString_Optimized.cpp) |
 <!-- PROBLEMS-END -->
+
 
 
 
