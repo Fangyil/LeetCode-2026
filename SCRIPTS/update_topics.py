@@ -17,7 +17,7 @@ PROGRESS_END = "<!-- TOPICS-END -->"
 # total_count = 0
 folder_counts = []
 for folder in FOLDERS:
-    path = os.path.join(ROOT_DIR, folder)
+    path = os.path.join(ROOT_DIR, "TOPICS", folder)
     if os.path.exists(path):
         count = len([f for f in os.listdir(path) if f.endswith(".cpp")])
     else:
