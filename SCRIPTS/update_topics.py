@@ -29,8 +29,9 @@ for folder in FOLDERS:
 progress_lines = ["\n", PROGRESS_START, "\n",
                   "| Folder | Solved |\n",
                   "|--------|--------|\n"]
-for folder, count in folder_counts:
-    progress_lines.append(f"| {folder} | {count} |\n")
+for folder, count in folder_counts: 
+    file_url = f"https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/{folder}"
+    progress_lines.append(f"| [{folder}]({file_url}) | {count} |\n")
 progress_lines.append(PROGRESS_END)
 progress_lines.append("\n")
 
