@@ -31,7 +31,10 @@ progress_lines = ["\n", PROGRESS_START, "\n",
                   "|--------|--------|\n"]
 for folder, count in folder_counts: 
     file_url = f"https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/{folder}"
-    progress_lines.append(f"| [{folder}]({file_url}) | {count} |\n")
+    if count>0:
+           progress_lines.append(f"| [{folder}]({file_url}) | {count} |\n")
+    else:
+           progress_lines.append(f"| {folder} | {count} |\n")
 progress_lines.append(PROGRESS_END)
 progress_lines.append("\n")
 
