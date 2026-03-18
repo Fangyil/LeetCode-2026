@@ -1,9 +1,11 @@
 name: Cleanup macOS Junk Files
 
 on:
-  schedule:
-    - cron: "0 0 * * *"   # 每天執行
-  workflow_dispatch:       # 手動觸發
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write
 
 jobs:
   cleanup:
