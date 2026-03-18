@@ -3,7 +3,7 @@ import re
 import requests
 from collections import defaultdict
 
-ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "TOPICS/"))
 README_FILE = os.path.join(ROOT_DIR, "README.md")
 
 FOLDERS = ["Array","BinarySearch","BruteForce","DynamicProgramming","Graph",
