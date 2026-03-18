@@ -43,7 +43,7 @@ def color(diff):
 problems_dict = defaultdict(list)  # key=ID, value=[(title, diff, method, link)]
 
 for folder in FOLDERS:
-    path = os.path.join(ROOT_DIR, folder)
+    path = os.path.join(ROOT_DIR, "TOPICS", folder)
     if not os.path.exists(path):
         continue
 
