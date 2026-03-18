@@ -108,7 +108,7 @@ for pid in sorted(problems_dict.keys(), key=lambda x: int(x)):
            seen.add(method)
            folder = e[4]
            filename = e[5]
-           file_url = f"https://github.com/Fangyil/LeetCode-2026/blob/main/{folder}/{filename}"
+           file_url = f"https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/{folder}/{filename}"
            links.append(f"[{method}]({file_url})")
     methods = " / ".join(links)
 
