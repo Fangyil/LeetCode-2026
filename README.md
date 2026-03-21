@@ -81,6 +81,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- TOPICS-START -->
 | Folder | Solved |
 |--------|--------|
@@ -92,9 +93,10 @@ This repository records my LeetCode practice and solutions in 2026.
 | [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList) | 1 |
 | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | 2 |
 | [Stack](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Stack) | 1 |
-| [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 10 |
+| [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 9 |
 | Tree | 0 |
 <!-- TOPICS-END -->
+
 
 
 
@@ -225,13 +227,14 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROBLEMS-START -->
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
 | 0003 | Longest Substring Without Repeating Characters | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [SlidingWindow](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0003_LongestSubstringWithoutRepeatingCharacters/SlidingWindow.cpp) / [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0003_LongestSubstringWithoutRepeatingCharacters/BruteForce.cpp) / [BruteForceUpdate](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0003_LongestSubstringWithoutRepeatingCharacters/BruteForceUpdate.cpp) |
 | 0006 | Zigzag Conversion | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/zigzag-conversion/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0006_ZigzagConversion_String.cpp) |
 | 0007 | Reverse Integer | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/reverse-integer/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0007_ReverseInteger_Math.cpp) |
-| 0008 | String to Integer (atoi) | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/string-to-integer-(atoi)/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0008_StringtoInteger(atoi)_String.cpp) / [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0008_StringtoInteger(atoi)_BruteForce.cpp) |
+| 0008 | String to Integer (atoi) | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/string-to-integer-(atoi)/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0008_StringtoInteger(atoi)/0008_StringtoInteger(atoi)_String.cpp) / [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0008_StringtoInteger(atoi)/BruteForce.cpp) |
 | 0009 | Palindrome Number | [![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/palindrome-number/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0009_PalindromeNumber_String.cpp) |
 | 0013 | Roman to Integer | [![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/roman-to-integer/) | [HashTable](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/HashTable/0013_RomantoInteger_HashTable.cpp) / [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0013_RomantoInteger_String.cpp) |
 | 0014 | Longest Common Prefix | [![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/longest-common-prefix/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0014_LongestCommonPrefix_String.cpp) |
