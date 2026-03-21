@@ -76,6 +76,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- TOPICS-START -->
 | Folder | Solved |
 |--------|--------|
@@ -87,9 +88,10 @@ This repository records my LeetCode practice and solutions in 2026.
 | [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList) | 1 |
 | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | 2 |
 | [Stack](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Stack) | 1 |
-| [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 11 |
+| [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 10 |
 | Tree | 0 |
 <!-- TOPICS-END -->
+
 
 
 
@@ -210,11 +212,13 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROBLEMS-START -->
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
-| 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | ![Medium](https://img.shields.io/badge/Medium-orange) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0003/BruteForce.cpp) / [BruteForceUpdate](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0003/BruteForceUpdate.cpp) |
+| 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | ![Medium](https://img.shields.io/badge/Medium-orange) | [SlidingWindow](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0003/SlidingWindow.cpp) / [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0003/BruteForce.cpp) / [BruteForceUpdate](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0003/BruteForceUpdate.cpp) |
 <!-- PROBLEMS-END -->
+
 
 
 
