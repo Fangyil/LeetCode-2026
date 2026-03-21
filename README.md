@@ -64,24 +64,22 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- TOPICS-START -->
 | Folder | Solved |
 |--------|--------|
 | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | 1 |
 | BinarySearch | 0 |
-| BruteForce | 0 |
-| DynamicProgramming | 0 |
 | Graph | 0 |
 | Greedy | 0 |
 | [HashTable](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/HashTable) | 1 |
 | [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList) | 1 |
 | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | 2 |
-| [Optimized](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Optimized) | 2 |
-| [SlidingWindow](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/SlidingWindow) | 1 |
 | [Stack](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Stack) | 1 |
 | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 11 |
 | Tree | 0 |
 <!-- TOPICS-END -->
+
 
 
 
@@ -178,6 +176,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROBLEMS-START -->
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
@@ -195,6 +194,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | 1680 | Concatenation Of Consecutive Binary Numbers | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/1680_ConcatenationOfConsecutiveBinaryNumbers_BruteForce.cpp) |
 | 1980 | Find Unique Binary String | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/find-unique-binary-string/) | [Optimized](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Optimized/1980_FindUniqueBinaryString_Optimized.cpp) |
 <!-- PROBLEMS-END -->
+
 
 
 
