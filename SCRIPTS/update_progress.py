@@ -3,12 +3,12 @@ import re
 import requests
 from collections import defaultdict
 
+# -----------------------------
+# 路徑設定
+# -----------------------------
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 README_FILE = os.path.join(ROOT_DIR, "README.md")
-
-FOLDERS = ["Array","BinarySearch","BruteForce","DynamicProgramming","Graph",
-           "Greedy","HashTable","LinkedList","Math","Optimized",
-           "SlidingWindow","Stack","String","Tree"]
+TOPICS_DIR = os.path.join(ROOT_DIR, "TOPICS")
 
 START = "<!-- PROGRESS-START -->"
 END = "<!-- PROGRESS-END -->"
@@ -16,7 +16,7 @@ END = "<!-- PROGRESS-END -->"
 # -----------------------------
 # 🔗 抓 LeetCode 題目資料
 # -----------------------------
-print("Fetching LeetCode data...")
+print("Fetching LeetCode data from LeetCode API...")
 url = "https://leetcode.com/api/problems/all/"
 data = requests.get(url).json()
 
@@ -30,65 +30,57 @@ def get_diff(qid):
     level = difficulty_map.get(int(qid), 2)
     return ["Easy", "Medium", "Hard"][level-1]
 
-def color(diff):
-    return {
-        "Easy": "![Easy](https://img.shields.io/badge/%20Easy%20-green)",
-        "Medium": "![Medium](https://img.shields.io/badge/Medium-orange)",
-        "Hard": "![Hard](https://img.shields.io/badge/%20Hard%20-red)"
-    }[diff]
-
 # -----------------------------
-# 🔹 整理檔案
+# 🔹 整理檔案資料
 # -----------------------------
-problems_dict = defaultdict(list)  # key=ID, value=[(title, diff, method, link)]
+problems_seen = {}  # key=pid, value=diff
 
-for folder in FOLDERS:
-    path = os.path.join(ROOT_DIR, "TOPICS", folder)
-    if not os.path.exists(path):
+for topic in os.listdir(TOPICS_DIR):
+    topic_path = os.path.join(TOPICS_DIR, topic)
+    if not os.path.isdir(topic_path):
         continue
 
-    for f in os.listdir(path):
-        if not f.endswith(".cpp"):
-            continue
+    for item in os.listdir(topic_path):
+        item_path = os.path.join(topic_path, item)
 
-        name = f.replace(".cpp","")
-        parts = name.split("_")
-        if len(parts) < 2:
-            continue
+        if os.path.isdir(item_path):
+            # 二層資料夾
+            pid_match = re.match(r"(\d+)", item)
+            if not pid_match:
+                continue
+            pid = pid_match.group(1)
+            diff = get_diff(pid)
+            problems_seen[pid] = diff
+        else:
+            # 單層檔案
+            if not item.endswith(".cpp"):
+                continue
+            name = item.replace(".cpp","")
+            pid_match = re.match(r"(\d+)", name)
+            if not pid_match:
+                continue
+            pid = pid_match.group(1)
+            diff = get_diff(pid)
+            problems_seen[pid] = diff
 
-        pid = parts[0]
-        title = parts[1]
-        method = parts[-1]  # 最後一個當 method
-
-        # 自動補 difficulty
-        difficulty = get_diff(pid)
-
-        # Title 格式化
-        title_fmt = re.sub(r'([a-z])([A-Z])', r'\1 \2', title)
-
-        # 🔗 生成 LeetCode link
-        slug = title_fmt.lower().replace(" ", "-")
-        link = f"https://leetcode.com/problems/{slug}/"
-
-        # 存進 dict
-        problems_dict[pid].append((title_fmt, difficulty, method, link, folder, f))
+# -----------------------------
+# 🔹 計算各難度題數
+# -----------------------------
+easy = medium = hard = 0
+for diff in problems_seen.values():
+    if diff == "Easy":
+        easy += 1
+    elif diff == "Medium":
+        medium += 1
+    else:
+        hard += 1
 
 # -----------------------------
 # 🔹 生成 README 區塊
 # -----------------------------
 section = "\n" + START + "\n"
-
-easy = medium = hard = 0
-
-# 先排序 ID
-for pid in problems_dict:
-    # 取第一個題目的 difficulty（全部方法同一題目，diff 一致）
-    diff = problems_dict[pid][0][1]
-    if diff == "Easy": easy += 1
-    elif diff == "Medium": medium += 1
-    else: hard += 1
-
-section += f"🟢 Easy: {easy} | 🟠 Medium: {medium} | 🔴 Hard: {hard}\n\n"
+section += f"🟢 Easy: {easy} | 🟠 Medium: {medium} | 🔴 Hard: {hard}\n"
+section += END + "\n"
 
 # -----------------------------
 # 🔹 寫回 README
