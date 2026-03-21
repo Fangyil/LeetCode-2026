@@ -57,6 +57,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- TOPICS-START -->
 | Folder | Solved |
 |--------|--------|
@@ -75,6 +76,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 7 |
 | Tree | 0 |
 <!-- TOPICS-END -->
+
 
 
 
@@ -157,10 +159,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROBLEMS-START -->
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
-| 0003 | Longest Substring Without Repeating Characters | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [BruteForceUpdate](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/BruteForce/0003_LongestSubstringWithoutRepeatingCharacters_BruteForceUpdate.cpp) / [SlidingWindow](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/SlidingWindow/0003_LongestSubstringWithoutRepeatingCharacters_SlidingWindow.cpp) / [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0003_LongestSubstringWithoutRepeatingCharacters_String_BruteForce.cpp) |
+| 0003 | Longest Substring Without Repeating Characters | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [BruteForceUpdate](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/BruteForce/0003_LongestSubstringWithoutRepeatingCharacters_BruteForceUpdate.cpp) / [SlidingWindow](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/SlidingWindow/0003_LongestSubstringWithoutRepeatingCharacters_SlidingWindow.cpp) / [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0003_LongestSubstringWithoutRepeatingCharacters_BruteForce.cpp) |
 | 0006 | Zigzag Conversion | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/zigzag-conversion/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0006_ZigzagConversion_String.cpp) |
 | 0007 | Reverse Integer | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/reverse-integer/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0007_ReverseInteger_Math.cpp) |
 | 0008 | Stringto Integer(atoi) | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/stringto-integer(atoi)/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/BruteForce/0008_StringtoInteger(atoi)_BruteForce.cpp) / [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0008_StringtoInteger(atoi)_String.cpp) |
@@ -175,6 +178,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | 1758 | Minimum Changes To Make Alternating Binary String | [![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/BruteForce/1758_MinimumChangesToMakeAlternatingBinaryString_BruteForce.cpp) |
 | 1980 | Find Unique Binary String | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/find-unique-binary-string/) | [Optimized](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Optimized/1980_FindUniqueBinaryString_Optimized.cpp) |
 <!-- PROBLEMS-END -->
+
 
 
 
