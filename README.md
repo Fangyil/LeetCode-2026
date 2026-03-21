@@ -19,9 +19,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROGRESS-START -->
-🟢 Easy: 11 | 🟠 Medium: 7 | 🔴 Hard: 0
+🟢 Easy: 11 | 🟠 Medium: 8 | 🔴 Hard: 0
 <!-- PROGRESS-END -->
+
 
 
 
@@ -113,6 +115,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- TOPICS-START -->
 | Folder | Solved |
 |--------|--------|
@@ -123,10 +126,11 @@ This repository records my LeetCode practice and solutions in 2026.
 | [HashTable](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/HashTable) | 1 |
 | [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList) | 1 |
 | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | 4 |
-| [Stack](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Stack) | 1 |
+| [Stack](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Stack) | 2 |
 | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 14 |
 | Tree | 0 |
 <!-- TOPICS-END -->
+
 
 
 
@@ -293,6 +297,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROBLEMS-START -->
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
@@ -313,5 +318,6 @@ This repository records my LeetCode practice and solutions in 2026.
 | 1758 | Minimum Changes To Make Alternating Binary String | [![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1758_MinimumChangesToMakeAlternatingBinaryString_BruteForce.cpp) |
 | 1768 | Merge Strings Alternately | [![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/merge-strings-alternately/) | [TwoPointers](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1768_MergeStringsAlternately_TwoPointers.cpp) |
 | 1980 | Find Unique Binary String | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/find-unique-binary-string/) | [Optimized](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1980_FindUniqueBinaryString_Optimized.cpp) |
+| 2390 | Removing Stars From a String | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/removing-stars-from-a-string/) | [Stack](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Stack/2390_RemovingStarsFromaString/Stack.cpp) |
 | 3643 | Flip Square Submatrix Vertically | [![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/flip-square-submatrix-vertically/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/3643_FlipSquareSubmatrixVertically/BruteForce.cpp) / [Optimized](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/3643_FlipSquareSubmatrixVertically/Optimized.cpp) |
 <!-- PROBLEMS-END -->
