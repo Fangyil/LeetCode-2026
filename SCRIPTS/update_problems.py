@@ -130,7 +130,7 @@ for pid in sorted(problems_dict.keys(), key=lambda x: int(x)):
     slug = title.lower().replace(" ", "-")
     leetcode_link = f"https://leetcode.com/problems/{slug}/"
 
-    section += f"| {pid} | [{title}]({leetcode_link}) | {color(diff)} | {methods} |\n"
+    section += f"| {pid} | {title} | [{color(diff)}]({leetcode_link}) | {methods} |\n"
 
 section += END + "\n"
 
