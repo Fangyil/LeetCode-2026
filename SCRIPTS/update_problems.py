@@ -70,14 +70,13 @@ for folder in os.listdir(TOPICS_DIR):
                 if not f.endswith(".cpp"):
                     continue
                 method = f.replace(".cpp","")
-                problems_dict[pid].append((title, diff, method, folder, f))
+                problems_dict[pid].append((title, diff, method, folder, pid_folder, f))
         else:
             # 單層資料夾檔案情況
             f = item
             if not f.endswith(".cpp"):
                 continue
             name = f.replace(".cpp","")
-            # PID 從檔名開頭抓
             pid_match = re.match(r"(\d+)", name)
             if not pid_match:
                 continue
@@ -85,16 +84,13 @@ for folder in os.listdir(TOPICS_DIR):
             title_match = re.match(r"\d+_(.+?)(?:_[^_]+)?$", name)
             if title_match:
                 title_candidate = title_match.group(1)
-                # 對應 API title
                 title = title_map.get(int(pid), title_candidate.replace("_", " "))
             else:
                 title = title_map.get(int(pid), f"Unknown-{pid}")
 
-            # method 取最後部分
             parts = name.split("_")
             method = parts[-1] if len(parts) > 1 else "Unknown"
-            diff = get_diff(pid)
-            problems_dict[pid].append((title, diff, method, folder, f))
+            problems_dict[pid].append((title, get_diff(pid), method, folder, None, f))
 
 # -----------------------------
 # 🔹 生成 README 區塊
@@ -108,29 +104,32 @@ for pid in sorted(problems_dict.keys(), key=lambda x: int(x)):
     title = entries[0][0]
     diff = entries[0][1]
 
-    seen = set()
     links = []
+    seen_methods = set()
     for e in entries:
         method = e[2]
-        if method in seen:
+        if method in seen_methods:
             continue
-        seen.add(method)
+        seen_methods.add(method)
         folder = e[3]
-        filename = e[4]
-        # 判斷是二層還是單層
-        if os.path.isdir(os.path.join(TOPICS_DIR, folder, f"{pid}_{title.replace(' ','')}")):
+        subfolder = e[4]
+        filename = e[5]
+
+        if subfolder:
             # 二層資料夾
-            file_url = f"https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/{folder}/{pid}_{title.replace(' ','')}/{filename}"
+            file_url = f"https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/{folder}/{subfolder}/{filename}"
         else:
             # 單層資料夾
             file_url = f"https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/{folder}/{filename}"
         links.append(f"[{method}]({file_url})")
-    methods = " / ".join(links)
+
+    links = sorted(links)  # ✅ 方法按字母排序
+    methods_str = " / ".join(links)
 
     slug = title.lower().replace(" ", "-")
     leetcode_link = f"https://leetcode.com/problems/{slug}/"
 
-    section += f"| {pid} | {title} | [{color(diff)}]({leetcode_link}) | {methods} |\n"
+    section += f"| {pid} | {title} | [{color(diff)}]({leetcode_link}) | {methods_str} |\n"
 
 section += END + "\n"
 
@@ -145,4 +144,4 @@ readme = re.split(f"{START}.*?{END}", readme, flags=re.DOTALL)[0] + section
 with open(README_FILE, "w", encoding="utf-8") as f:
     f.write(readme)
 
-print("🔥 README updated with merged solutions!")
+print("🔥 README updated with merged and sorted solutions!")
