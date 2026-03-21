@@ -70,6 +70,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- TOPICS-START -->
 | Folder | Solved |
 |--------|--------|
@@ -84,6 +85,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 13 |
 | Tree | 0 |
 <!-- TOPICS-END -->
+
 
 
 
@@ -192,6 +194,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROBLEMS-START -->
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
@@ -207,8 +210,10 @@ This repository records my LeetCode practice and solutions in 2026.
 | 1545 | Find Kth Bitin Nth Binary String | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/find-kth-bitin-nth-binary-string/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1545_FindKthBitinNthBinaryString_String.cpp) |
 | 1582 | Special Positions Ina Binary Matrix | [![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/special-positions-ina-binary-matrix/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/1582_SpecialPositionsInaBinaryMatrix_BruteForce.cpp) / [RowColSum](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/1582_SpecialPositionsInaBinaryMatrix_RowColSum.cpp) |
 | 1680 | Concatenation Of Consecutive Binary Numbers | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/1680_ConcatenationOfConsecutiveBinaryNumbers_BruteForce.cpp) |
+| 1758 | Minimum Changes To Make Alternating Binary String | [![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1758_MinimumChangesToMakeAlternatingBinaryString_BruteForce.cpp) |
 | 1980 | Find Unique Binary String | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/find-unique-binary-string/) | [Optimized](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1980_FindUniqueBinaryString_Optimized.cpp) |
 <!-- PROBLEMS-END -->
+
 
 
 
