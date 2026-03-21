@@ -87,10 +87,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- TOPICS-START -->
 | Folder | Solved |
 |--------|--------|
-| [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | 2 |
+| [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | 3 |
 | BinarySearch | 0 |
 | Graph | 0 |
 | Greedy | 0 |
@@ -101,6 +102,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 13 |
 | Tree | 0 |
 <!-- TOPICS-END -->
+
 
 
 
@@ -243,6 +245,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROBLEMS-START -->
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
@@ -260,4 +263,5 @@ This repository records my LeetCode practice and solutions in 2026.
 | 1680 | Concatenation of Consecutive Binary Numbers | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/1680_ConcatenationOfConsecutiveBinaryNumbers_BruteForce.cpp) |
 | 1758 | Minimum Changes To Make Alternating Binary String | [![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1758_MinimumChangesToMakeAlternatingBinaryString_BruteForce.cpp) |
 | 1980 | Find Unique Binary String | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/find-unique-binary-string/) | [Optimized](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1980_FindUniqueBinaryString_Optimized.cpp) |
+| 3643 | Flip Square Submatrix Vertically | [![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/flip-square-submatrix-vertically/) | [Optimized](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/3643_FlipSquareSubmatrixVertically_Array_Optimized.cpp) |
 <!-- PROBLEMS-END -->
