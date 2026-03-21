@@ -1,5 +1,5 @@
 //Runtime: 0ms, Beats: 100.00%
-//just using a funtion, learn something new
+//just using a funtion, learn something new 
 
 #include<iostream>
 using namespace std;
