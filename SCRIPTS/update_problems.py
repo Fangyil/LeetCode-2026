@@ -123,7 +123,8 @@ for pid in sorted(problems_dict.keys(), key=lambda x: int(x)):
             file_url = f"https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/{folder}/{filename}"
         links.append(f"[{method}]({file_url})")
 
-    links = sorted(links)  # ✅ 方法按字母排序
+    # 先按方法名稱字母排序，短的在前
+    links = sorted(links, key=lambda x: (re.sub(r"\[|\]\(.*\)","",x), len(x)))
     methods_str = " / ".join(links)
 
     slug = title.lower().replace(" ", "-")
