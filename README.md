@@ -18,9 +18,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROGRESS-START -->
-🟢 Easy: 10 | 🟠 Medium: 7 | 🔴 Hard: 0
+🟢 Easy: 11 | 🟠 Medium: 7 | 🔴 Hard: 0
 <!-- PROGRESS-END -->
+
 
 
 
@@ -110,6 +112,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- TOPICS-START -->
 | Folder | Solved |
 |--------|--------|
@@ -121,9 +124,10 @@ This repository records my LeetCode practice and solutions in 2026.
 | [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList) | 1 |
 | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | 4 |
 | [Stack](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Stack) | 1 |
-| [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 13 |
+| [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 14 |
 | Tree | 0 |
 <!-- TOPICS-END -->
+
 
 
 
@@ -288,6 +292,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROBLEMS-START -->
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
@@ -306,6 +311,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | 1582 | Special Positions in a Binary Matrix | [![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/1582_SpecialPositionsInaBinaryMatrix/BruteForce.cpp) / [RowColSum](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/1582_SpecialPositionsInaBinaryMatrix/RowColSum.cpp) |
 | 1680 | Concatenation of Consecutive Binary Numbers | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/1680_ConcatenationOfConsecutiveBinaryNumbers_BruteForce.cpp) |
 | 1758 | Minimum Changes To Make Alternating Binary String | [![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1758_MinimumChangesToMakeAlternatingBinaryString_BruteForce.cpp) |
+| 1768 | Merge Strings Alternately | [![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/merge-strings-alternately/) | [TwoPointers](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1768_MergeStringsAlternately_TwoPointers.cpp) |
 | 1980 | Find Unique Binary String | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/find-unique-binary-string/) | [Optimized](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1980_FindUniqueBinaryString_Optimized.cpp) |
 | 3643 | Flip Square Submatrix Vertically | [![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/flip-square-submatrix-vertically/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/3643_FlipSquareSubmatrixVertically/BruteForce.cpp) / [Optimized](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/3643_FlipSquareSubmatrixVertically/Optimized.cpp) |
 <!-- PROBLEMS-END -->
