@@ -86,10 +86,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- TOPICS-START -->
 | Folder | Solved |
 |--------|--------|
-| Array | 0 |
+| [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | 2 |
 | BinarySearch | 0 |
 | Graph | 0 |
 | Greedy | 0 |
@@ -97,9 +98,10 @@ This repository records my LeetCode practice and solutions in 2026.
 | [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList) | 1 |
 | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | 2 |
 | [Stack](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Stack) | 1 |
-| [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 6 |
+| [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 13 |
 | Tree | 0 |
 <!-- TOPICS-END -->
+
 
 
 
@@ -171,6 +173,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 ## Problem List
+
 
 
 
