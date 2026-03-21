@@ -1,5 +1,5 @@
-import re
 import os
+import re
 import requests
 from collections import defaultdict
 
@@ -51,29 +51,55 @@ for folder in os.listdir(TOPICS_DIR):
     if not os.path.isdir(folder_path):
         continue
 
-    for pid_folder in os.listdir(folder_path):
-        pid_path = os.path.join(folder_path, pid_folder)
-        if not os.path.isdir(pid_path):
-            continue
+    for item in os.listdir(folder_path):
+        item_path = os.path.join(folder_path, item)
+        # -----------------------------
+        # 判斷是檔案還是子資料夾
+        # -----------------------------
+        if os.path.isdir(item_path):
+            # 二層資料夾情況
+            pid_folder = item
+            pid_match = re.match(r"(\d+)", pid_folder)
+            if not pid_match:
+                continue
+            pid = pid_match.group(1)
+            title = title_map.get(int(pid), f"Unknown-{pid}")
+            diff = get_diff(pid)
 
-        pid_match = re.match(r"(\d+)", pid_folder)
-        if not pid_match:
-            continue
-        pid = pid_match.group(1)
-        title = title_map.get(int(pid), f"Unknown-{pid}")
-        diff = get_diff(pid)
-
-        for f in os.listdir(pid_path):
+            for f in os.listdir(item_path):
+                if not f.endswith(".cpp"):
+                    continue
+                method = f.replace(".cpp","")
+                problems_dict[pid].append((title, diff, method, folder, f))
+        else:
+            # 單層資料夾檔案情況
+            f = item
             if not f.endswith(".cpp"):
                 continue
-            method = f.replace(".cpp", "")
+            name = f.replace(".cpp","")
+            # PID 從檔名開頭抓
+            pid_match = re.match(r"(\d+)", name)
+            if not pid_match:
+                continue
+            pid = pid_match.group(1)
+            title_match = re.match(r"\d+_(.+?)(?:_[^_]+)?$", name)
+            if title_match:
+                title_candidate = title_match.group(1)
+                # 對應 API title
+                title = title_map.get(int(pid), title_candidate.replace("_", " "))
+            else:
+                title = title_map.get(int(pid), f"Unknown-{pid}")
+
+            # method 取最後部分
+            parts = name.split("_")
+            method = parts[-1] if len(parts) > 1 else "Unknown"
+            diff = get_diff(pid)
             problems_dict[pid].append((title, diff, method, folder, f))
 
 # -----------------------------
 # 🔹 生成 README 區塊
 # -----------------------------
 section = "\n" + START + "\n"
-
 section += "| # | Title | Difficulty | Solution |\n"
 section += "|---|-------|------------|----------|\n"
 
@@ -91,11 +117,16 @@ for pid in sorted(problems_dict.keys(), key=lambda x: int(x)):
         seen.add(method)
         folder = e[3]
         filename = e[4]
-        file_url = f"https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/{folder}/{pid}/{filename}"
+        # 判斷是二層還是單層
+        if os.path.isdir(os.path.join(TOPICS_DIR, folder, f"{pid}_{title.replace(' ','')}")):
+            # 二層資料夾
+            file_url = f"https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/{folder}/{pid}_{title.replace(' ','')}/{filename}"
+        else:
+            # 單層資料夾
+            file_url = f"https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/{folder}/{filename}"
         links.append(f"[{method}]({file_url})")
     methods = " / ".join(links)
 
-    # 使用 API title 與 colored difficulty
     slug = title.lower().replace(" ", "-")
     leetcode_link = f"https://leetcode.com/problems/{slug}/"
 
@@ -109,7 +140,7 @@ section += END + "\n"
 with open(README_FILE, "r", encoding="utf-8") as f:
     readme = f.read()
 
-readme = readme.split(START)[0] + section + readme.split(END)[1]
+readme = re.split(f"{START}.*?{END}", readme, flags=re.DOTALL)[0] + section
 
 with open(README_FILE, "w", encoding="utf-8") as f:
     f.write(readme)
