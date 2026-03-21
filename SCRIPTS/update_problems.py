@@ -57,8 +57,8 @@ for folder in FOLDERS:
             continue
 
         pid = parts[0]
-        title = parts[1]
-        method = parts[-1]  # 最後一個當 method
+        title = "_".join(parts[1:-1])  # ← 關鍵
+        method = parts[-1]
 
         # 自動補 difficulty
         difficulty = get_diff(pid)
