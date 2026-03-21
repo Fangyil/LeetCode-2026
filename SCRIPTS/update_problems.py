@@ -1,3 +1,4 @@
+import re
 import os
 import requests
 from collections import defaultdict
@@ -55,7 +56,10 @@ for folder in os.listdir(TOPICS_DIR):
         if not os.path.isdir(pid_path):
             continue
 
-        pid = pid_folder
+        pid_match = re.match(r"(\d+)", pid_folder)
+        if not pid_match:
+            continue
+        pid = pid_match.group(1)
         title = title_map.get(int(pid), f"Unknown-{pid}")
         diff = get_diff(pid)
 
