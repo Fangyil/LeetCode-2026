@@ -61,24 +61,26 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- TOPICS-START -->
 | Folder | Solved |
 |--------|--------|
 | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | 1 |
 | BinarySearch | 0 |
-| [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/BruteForce) | 3 |
+| [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/BruteForce) | 2 |
 | DynamicProgramming | 0 |
 | Graph | 0 |
 | Greedy | 0 |
 | [HashTable](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/HashTable) | 1 |
 | [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList) | 1 |
-| [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | 1 |
+| [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | 2 |
 | [Optimized](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Optimized) | 2 |
 | [SlidingWindow](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/SlidingWindow) | 1 |
 | [Stack](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Stack) | 1 |
 | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 9 |
 | Tree | 0 |
 <!-- TOPICS-END -->
+
 
 
 
@@ -169,6 +171,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROBLEMS-START -->
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
@@ -183,10 +186,11 @@ This repository records my LeetCode practice and solutions in 2026.
 | 0021 | Merge Two Sorted Lists | [![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/merge-two-sorted-lists/) | [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList/0021_MergeTwoSortedLists_LinkedList.cpp) |
 | 1545 | Find Kth Bitin Nth Binary String | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/find-kth-bitin-nth-binary-string/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1545_FindKthBitinNthBinaryString_String.cpp) |
 | 1582 | Special Positions Ina Binary Matrix | [![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/special-positions-ina-binary-matrix/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/1582_SpecialPositionsInaBinaryMatrix_BruteForce.cpp) / [RowColSum](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Optimized/1582_SpecialPositionsInaBinaryMatrix_RowColSum.cpp) |
-| 1680 | Concatenation Of Consecutive Binary Numbers | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/BruteForce/1680_ConcatenationOfConsecutiveBinaryNumbers_BruteForce.cpp) |
+| 1680 | Concatenation Of Consecutive Binary Numbers | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/1680_ConcatenationOfConsecutiveBinaryNumbers_BruteForce.cpp) |
 | 1758 | Minimum Changes To Make Alternating Binary String | [![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/BruteForce/1758_MinimumChangesToMakeAlternatingBinaryString_BruteForce.cpp) |
 | 1980 | Find Unique Binary String | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/find-unique-binary-string/) | [Optimized](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Optimized/1980_FindUniqueBinaryString_Optimized.cpp) |
 <!-- PROBLEMS-END -->
+
 
 
 
