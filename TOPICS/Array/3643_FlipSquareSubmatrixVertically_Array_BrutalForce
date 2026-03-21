@@ -1,0 +1,21 @@
+//Runtime: 12ms, Beats: 6.02%
+
+#include <iostream>
+using namespace std;
+
+class Solution {
+public:
+    vector<vector<int>> reverseSubmatrix(vector<vector<int>>& grid, int x, int y, int k) {
+        int rows, columns;
+
+        rows = grid.size();
+        columns = grid[0].size();
+
+        for (int i = 0; i < (k + 1) / 2; i++)
+            for (int j = 0; j < k; j++) {
+                swap(grid[x + i][y + j], grid[x + k - 1 - i][y + j]);
+                // cout << y + i << endl;
+            }
+        return grid;
+    }
+};
