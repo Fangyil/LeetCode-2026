@@ -15,9 +15,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROGRESS-START -->
 🟢 Easy: 8 | 🟠 Medium: 7 | 🔴 Hard: 0
 <!-- PROGRESS-END -->
+
 
 
 
@@ -27,6 +29,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 ## Topics Cover
+
 
 
 
@@ -191,6 +194,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 ---
 
 
@@ -273,10 +277,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROBLEMS-START -->
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
-| 0003 | Longest Substring Without Repeating Characters | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [BruteForceUpdate](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0003_LongestSubstringWithoutRepeatingCharacters/BruteForceUpdate.cpp) / [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0003_LongestSubstringWithoutRepeatingCharacters/BruteForce.cpp) / [SlidingWindow](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0003_LongestSubstringWithoutRepeatingCharacters/SlidingWindow.cpp) |
+| 0003 | Longest Substring Without Repeating Characters | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0003_LongestSubstringWithoutRepeatingCharacters/BruteForce.cpp) / [BruteForceUpdate](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0003_LongestSubstringWithoutRepeatingCharacters/BruteForceUpdate.cpp) / [SlidingWindow](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0003_LongestSubstringWithoutRepeatingCharacters/SlidingWindow.cpp) |
 | 0006 | Zigzag Conversion | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/zigzag-conversion/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0006_ZigzagConversion_String.cpp) |
 | 0007 | Reverse Integer | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/reverse-integer/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0007_ReverseInteger_Math.cpp) |
 | 0008 | String to Integer (atoi) | [![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/string-to-integer-(atoi)/) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0008_StringtoInteger(atoi)/BruteForce.cpp) / [Optimized](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0008_StringtoInteger(atoi)/Optimized.cpp) |
