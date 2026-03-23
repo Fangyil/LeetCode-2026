@@ -96,7 +96,7 @@ for folder in os.listdir(TOPICS_DIR):
 # 🔹 生成 README 區塊
 # -----------------------------
 section = "\n" + START + "\n"
-section += "| # | Title | Topics | Difficulty | Solution |\n"
+section += "| # | Title| Difficulty | Topics | Solution |\n"
 section += "|---|-------|------------|------------|----------|\n"
 
 for pid in sorted(problems_dict.keys(), key=lambda x: int(x)):
@@ -131,7 +131,7 @@ for pid in sorted(problems_dict.keys(), key=lambda x: int(x)):
     slug = title.lower().replace(" ", "-")
     leetcode_link = f"https://leetcode.com/problems/{slug}/"
 
-    section += f"| {pid} | {title}  | {topics} | [{color(diff)}]({leetcode_link}) | {methods_str} |\n"
+    section += f"| {pid} | {title} |[{color(diff)}]({leetcode_link}) | {topics} | {methods_str} |\n"
 
 section += END + "\n"
 
