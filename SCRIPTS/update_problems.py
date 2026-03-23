@@ -64,14 +64,13 @@ for folder in os.listdir(TOPICS_DIR):
                 continue
             pid = pid_match.group(1)
             title = title_map.get(int(pid), f"Unknown-{pid}")
-            topics = pid_match
             diff = get_diff(pid)
 
             for f in os.listdir(item_path):
                 if not f.endswith(".cpp"):
                     continue
                 method = f.replace(".cpp","")
-                problems_dict[pid].append((title, topics, diff, method, folder, pid_folder, f))
+                problems_dict[pid].append((title, folder, diff, method, folder, pid_folder, f))
         else:
             # 單層資料夾檔案情況
             f = item
@@ -83,7 +82,6 @@ for folder in os.listdir(TOPICS_DIR):
                 continue
             pid = pid_match.group(1)
             title_match = re.match(r"\d+_(.+?)(?:_[^_]+)?$", name)
-            topics = title_match
             if title_match:
                 title_candidate = title_match.group(1)
                 title = title_map.get(int(pid), title_candidate.replace("_", " "))
@@ -92,7 +90,7 @@ for folder in os.listdir(TOPICS_DIR):
 
             parts = name.split("_")
             method = parts[-1] if len(parts) > 1 else "Unknown"
-            problems_dict[pid].append((title, topics, get_diff(pid), method, folder, None, f))
+            problems_dict[pid].append((title, folder, get_diff(pid), method, folder, None, f))
 
 # -----------------------------
 # 🔹 生成 README 區塊
