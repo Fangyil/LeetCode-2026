@@ -64,13 +64,14 @@ for folder in os.listdir(TOPICS_DIR):
                 continue
             pid = pid_match.group(1)
             title = title_map.get(int(pid), f"Unknown-{pid}")
+            topics = pid_match
             diff = get_diff(pid)
 
             for f in os.listdir(item_path):
                 if not f.endswith(".cpp"):
                     continue
                 method = f.replace(".cpp","")
-                problems_dict[pid].append((title, diff, method, folder, pid_folder, f))
+                problems_dict[pid].append((title, topics, diff, method, folder, pid_folder, f))
         else:
             # 單層資料夾檔案情況
             f = item
@@ -82,6 +83,7 @@ for folder in os.listdir(TOPICS_DIR):
                 continue
             pid = pid_match.group(1)
             title_match = re.match(r"\d+_(.+?)(?:_[^_]+)?$", name)
+            topics = title_match
             if title_match:
                 title_candidate = title_match.group(1)
                 title = title_map.get(int(pid), title_candidate.replace("_", " "))
@@ -90,30 +92,31 @@ for folder in os.listdir(TOPICS_DIR):
 
             parts = name.split("_")
             method = parts[-1] if len(parts) > 1 else "Unknown"
-            problems_dict[pid].append((title, get_diff(pid), method, folder, None, f))
+            problems_dict[pid].append((title, topics, get_diff(pid), method, folder, None, f))
 
 # -----------------------------
 # 🔹 生成 README 區塊
 # -----------------------------
 section = "\n" + START + "\n"
-section += "| # | Title | Difficulty | Solution |\n"
-section += "|---|-------|------------|----------|\n"
+section += "| # | Title | Topics | Difficulty | Solution |\n"
+section += "|---|-------|------------|------------|----------|\n"
 
 for pid in sorted(problems_dict.keys(), key=lambda x: int(x)):
     entries = problems_dict[pid]
     title = entries[0][0]
-    diff = entries[0][1]
+    topics = entries[0][1]
+    diff = entries[0][2]
 
     links = []
     seen_methods = set()
     for e in entries:
-        method = e[2]
+        method = e[3]
         if method in seen_methods:
             continue
         seen_methods.add(method)
-        folder = e[3]
-        subfolder = e[4]
-        filename = e[5]
+        folder = e[4]
+        subfolder = e[5]
+        filename = e[6]
 
         if subfolder:
             # 二層資料夾
@@ -130,7 +133,7 @@ for pid in sorted(problems_dict.keys(), key=lambda x: int(x)):
     slug = title.lower().replace(" ", "-")
     leetcode_link = f"https://leetcode.com/problems/{slug}/"
 
-    section += f"| {pid} | {title} | [{color(diff)}]({leetcode_link}) | {methods_str} |\n"
+    section += f"| {pid} | {title}  | {topics} | [{color(diff)}]({leetcode_link}) | {methods_str} |\n"
 
 section += END + "\n"
 
