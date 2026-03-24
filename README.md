@@ -25,9 +25,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROGRESS-START -->
 🟢 Easy: 12 | 🟠 Medium: 8 | 🔴 Hard: 1
 <!-- PROGRESS-END -->
+
 
 
 
@@ -47,6 +49,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 ## Topics Cover
+
 
 
 
@@ -231,10 +234,12 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 ---
 
 
 ## Problem List
+
 
 
 
