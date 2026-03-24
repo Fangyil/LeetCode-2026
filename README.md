@@ -37,9 +37,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROGRESS-START -->
-🟢 Easy: 13 | 🟠 Medium: 9 | 🔴 Hard: 1
+🟢 Easy: 13 | 🟠 Medium: 10 | 🔴 Hard: 1
 <!-- PROGRESS-END -->
+
 
 
 
@@ -167,10 +169,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- TOPICS-START -->
 | Folder | Solved |
 |--------|--------|
-| [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | 7 |
+| [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | 8 |
 | BinarySearch | 0 |
 | Graph | 0 |
 | Greedy | 0 |
@@ -181,6 +184,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 20 |
 | Tree | 0 |
 <!-- TOPICS-END -->
+
 
 
 
@@ -383,6 +387,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROBLEMS-START -->
 | # | Title| Difficulty | Topics | Solution |
 |---|-------|------------|------------|----------|
@@ -399,6 +404,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | 0021 | Merge Two Sorted Lists |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/merge-two-sorted-lists/) | LinkedList | [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList/0021_MergeTwoSortedLists_LinkedList.cpp) |
 | 0026 | Remove Duplicates from Sorted Array |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Array | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0026_RemoveDuplicatesfromSortedArray_BruteForce.cpp) |
 | 0070 | Climbing Stairs |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/climbing-stairs/) | Math | [DP](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0070_ClimbingStairs_DP.cpp) |
+| 0167 | Two Sum II - Input Array Is Sorted |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/two-sum-ii---input-array-is-sorted/) | Array | [TwoPointers](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0167_TwoSumII-InputArrayIsSorted_TwoPointers.cpp) |
 | 0509 | Fibonacci Number |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/fibonacci-number/) | Math | [DP](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0509_FibonacciNumber_DP.cpp) |
 | 1545 | Find Kth Bit in Nth Binary String |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | String | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1545_FindKthBitinNthBinary/BruteForce.cpp) / [DP](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1545_FindKthBitinNthBinaryString/DP.cpp) |
 | 1582 | Special Positions in a Binary Matrix |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | Array | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/1582_SpecialPositionsInaBinaryMatrix/BruteForce.cpp) / [RowColSum](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/1582_SpecialPositionsInaBinaryMatrix/RowColSum.cpp) |
