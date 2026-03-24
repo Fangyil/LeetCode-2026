@@ -1,4 +1,4 @@
-//runtime beats 29.9 %
+//Runtime: 5ms, Beats: 12.9%
 
 #include <iostream>
 using namespace std;
