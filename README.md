@@ -41,9 +41,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROGRESS-START -->
 🟢 Easy: 13 | 🟠 Medium: 11 | 🔴 Hard: 1
 <!-- PROGRESS-END -->
+
 
 
 
@@ -179,6 +181,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- TOPICS-START -->
 | Folder | Solved |
 |--------|--------|
@@ -186,13 +189,14 @@ This repository records my LeetCode practice and solutions in 2026.
 | BinarySearch | 0 |
 | Graph | 0 |
 | Greedy | 0 |
-| [HashTable](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/HashTable) | 1 |
+| HashTable | 0 |
 | [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList) | 1 |
 | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | 5 |
 | [Stack](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Stack) | 2 |
-| [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 20 |
+| [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 21 |
 | Tree | 0 |
 <!-- TOPICS-END -->
+
 
 
 
@@ -403,6 +407,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROBLEMS-START -->
 | # | Title| Difficulty | Topics | Solution |
 |---|-------|------------|------------|----------|
@@ -413,7 +418,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | 0007 | Reverse Integer |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/reverse-integer/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0007_ReverseInteger_Math.cpp) |
 | 0008 | String to Integer (atoi) |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/string-to-integer-(atoi)/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0008_StringtoInteger(atoi)/BruteForce.cpp) / [Optimized](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0008_StringtoInteger(atoi)/Optimized.cpp) |
 | 0009 | Palindrome Number |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/palindrome-number/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0009_PalindromeNumber_String.cpp) |
-| 0013 | Roman to Integer |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/roman-to-integer/) | [HashTable](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | [HashTable](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/HashTable/0013_RomantoInteger_HashTable.cpp) / [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0013_RomantoInteger_String.cpp) |
+| 0013 | Roman to Integer |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/roman-to-integer/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | [HashTable](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0013_RomantoInteger_HashTable.cpp) / [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0013_RomantoInteger_String.cpp) |
 | 0014 | Longest Common Prefix |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/longest-common-prefix/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0014_LongestCommonPrefix_String.cpp) |
 | 0020 | Valid Parentheses |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/valid-parentheses/) | [Stack](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Stack) | [Stack](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Stack/0020_ValidParentheses_Stack.cpp) |
 | 0021 | Merge Two Sorted Lists |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/merge-two-sorted-lists/) | [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList) | [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList/0021_MergeTwoSortedLists_LinkedList.cpp) |
