@@ -115,7 +115,7 @@ for pid in sorted(problems_dict.keys(), key=lambda x: int(x)):
         folder = e[4]
         subfolder = e[5]
         filename = e[6]
-
+        file_url = f"https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/{folder}"
         if subfolder:
             # 二層資料夾
             file_url = f"https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/{folder}/{subfolder}/{filename}"
@@ -131,7 +131,7 @@ for pid in sorted(problems_dict.keys(), key=lambda x: int(x)):
     slug = title.lower().replace(" ", "-")
     leetcode_link = f"https://leetcode.com/problems/{slug}/"
 
-    section += f"| {pid} | {title} |[{color(diff)}]({leetcode_link}) | {topics} | {methods_str} |\n"
+    section += f"| {pid} | {title} |[{color(diff)}]({leetcode_link}) | [{topics}]({file_url}) | {methods_str} |\n"
 
 section += END + "\n"
 
