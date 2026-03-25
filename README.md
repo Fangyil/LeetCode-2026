@@ -44,9 +44,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROGRESS-START -->
-🟢 Easy: 13 | 🟠 Medium: 11 | 🔴 Hard: 1
+🟢 Easy: 14 | 🟠 Medium: 11 | 🔴 Hard: 1
 <!-- PROGRESS-END -->
+
 
 
 
@@ -188,10 +190,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- TOPICS-START -->
 | Folder | Solved |
 |--------|--------|
-| [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | 8 |
+| [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | 9 |
 | BinarySearch | 0 |
 | Graph | 0 |
 | Greedy | 0 |
@@ -202,6 +205,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 21 |
 | Tree | 0 |
 <!-- TOPICS-END -->
+
 
 
 
@@ -418,6 +422,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROBLEMS-START -->
 | # | Title| Difficulty | Topics | Solution |
 |---|-------|------------|------------|----------|
@@ -434,6 +439,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | 0021 | Merge Two Sorted Lists |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/merge-two-sorted-lists/) | [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList) | [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList/0021_MergeTwoSortedLists_LinkedList.cpp) |
 | 0026 | Remove Duplicates from Sorted Array |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0026_RemoveDuplicatesfromSortedArray_BruteForce.cpp) |
 | 0029 | Divide Two Integers |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/divide-two-integers/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0029_DivideTwoIntegers_BruteForce.cpp) |
+| 0035 | Search Insert Position |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/search-insert-position/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [BinarySearch](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0035_Search Insert Position_BinarySearch.cpp) |
 | 0070 | Climbing Stairs |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/climbing-stairs/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | [DP](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0070_ClimbingStairs_DP.cpp) |
 | 0167 | Two Sum II - Input Array Is Sorted |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/two-sum-ii---input-array-is-sorted/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [TwoPointers](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0167_TwoSumII-InputArrayIsSorted_TwoPointers.cpp) |
 | 0509 | Fibonacci Number |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/fibonacci-number/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | [DP](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0509_FibonacciNumber_DP.cpp) |
