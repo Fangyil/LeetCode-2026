@@ -49,9 +49,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROGRESS-START -->
 🟢 Easy: 14 | 🟠 Medium: 12 | 🔴 Hard: 1
 <!-- PROGRESS-END -->
+
 
 
 
@@ -203,11 +205,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- TOPICS-START -->
 | Folder | Solved |
 |--------|--------|
 | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | 10 |
-| BinarySearch | 0 |
 | Graph | 0 |
 | Greedy | 0 |
 | HashTable | 0 |
@@ -327,10 +329,12 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 ---
 
 
 ## Problem List
+
 
 
 
