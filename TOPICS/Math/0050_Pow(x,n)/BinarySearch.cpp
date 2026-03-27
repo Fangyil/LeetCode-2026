@@ -1,5 +1,5 @@
 // Runtime: 0 ms, beats: 100%
-// Time Complexity: O(log n)
+// Time Complexity: O(log n) 
 #include <iostream>
 using namespace std;
 
