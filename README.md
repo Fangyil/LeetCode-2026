@@ -54,9 +54,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROGRESS-START -->
 🟢 Easy: 14 | 🟠 Medium: 13 | 🔴 Hard: 1
 <!-- PROGRESS-END -->
+
 
 
 
@@ -105,6 +107,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 ## Topics Cover
+
 
 
 
@@ -346,10 +349,12 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 ---
 
 
 ## Problem List
+
 
 
 
@@ -485,7 +490,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | 0029 | Divide Two Integers |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/divide-two-integers/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0029_DivideTwoIntegers_BruteForce.cpp) |
 | 0034 | Find First and Last Position of Element in Sorted Array |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [BinarySearch](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0034_FindFirstandLastPositionofElementinSortedArray_BinarySearch.cpp) |
 | 0035 | Search Insert Position |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/search-insert-position/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [BinarySearch](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0035_SearchInsertPosition_BinarySearch.cpp) |
-| 0050 | Pow(x, n) |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/pow(x,-n)/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | [BinarySearch](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0050_Pow(x,n)/BinarySearch.cpp) / [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0050_Pow(x, n)/BruteForce.cpp) |
+| 0050 | Pow(x, n) |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/pow(x,-n)/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | [BinarySearch](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0050_Pow(x,n)/BinarySearch.cpp) / [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0050_Pow(x,n)/BruteForce.cpp) |
 | 0070 | Climbing Stairs |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/climbing-stairs/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | [DP](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0070_ClimbingStairs_DP.cpp) |
 | 0167 | Two Sum II - Input Array Is Sorted |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/two-sum-ii---input-array-is-sorted/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [TwoPointers](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0167_TwoSumII-InputArrayIsSorted_TwoPointers.cpp) |
 | 0509 | Fibonacci Number |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/fibonacci-number/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | [DP](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0509_FibonacciNumber_DP.cpp) |
