@@ -125,8 +125,16 @@ for pid in sorted(problems_dict.keys(), key=lambda x: int(x)):
         links.append(f"[{method}]({file_url})")
 
     # 先按方法名稱字母排序，短的在前
-    links = sorted(links, key=lambda x: (re.sub(r"\[|\]\(.*\)","",x), len(x)))
-    methods_str = " / ".join(links)
+    links = sorted(
+        links,
+        key=lambda x: (
+            "BruteForce" not in x,  # False (0) 會排前面
+            re.sub(r"\[|\]\(.*\)", "", x),
+            len(x)
+        )
+    )
+
+methods_str = " / ".join(links)
 
     slug = title.lower().replace(" ", "-")
     leetcode_link = f"https://leetcode.com/problems/{slug}/"
