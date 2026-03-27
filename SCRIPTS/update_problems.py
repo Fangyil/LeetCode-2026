@@ -133,8 +133,7 @@ for pid in sorted(problems_dict.keys(), key=lambda x: int(x)):
             len(x)
         )
     )
-
-methods_str = " / ".join(links)
+    methods_str = " / ".join(links)
 
     slug = title.lower().replace(" ", "-")
     leetcode_link = f"https://leetcode.com/problems/{slug}/"
