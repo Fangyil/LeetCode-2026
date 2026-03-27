@@ -52,9 +52,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROGRESS-START -->
 🟢 Easy: 14 | 🟠 Medium: 13 | 🔴 Hard: 1
 <!-- PROGRESS-END -->
+
 
 
 
@@ -101,6 +103,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 ## Topics Cover
+
 
 
 
@@ -338,10 +341,12 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 ---
 
 
 ## Problem List
+
 
 
 
@@ -479,7 +484,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | 0070 | Climbing Stairs |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/climbing-stairs/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | [DP](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0070_ClimbingStairs_DP.cpp) |
 | 0167 | Two Sum II - Input Array Is Sorted |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/two-sum-ii---input-array-is-sorted/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [TwoPointers](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0167_TwoSumII-InputArrayIsSorted_TwoPointers.cpp) |
 | 0509 | Fibonacci Number |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/fibonacci-number/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | [DP](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0509_FibonacciNumber_DP.cpp) |
-| 1545 | Find Kth Bit in Nth Binary String |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1545_FindKthBitinNthBinary/BruteForce.cpp) / [DP](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1545_FindKthBitinNthBinaryString/DP.cpp) |
+| 1545 | Find Kth Bit in Nth Binary String |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1545_FindKthBitinNthBinaryString/BruteForce.cpp) / [DP](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1545_FindKthBitinNthBinaryString/DP.cpp) |
 | 1582 | Special Positions in a Binary Matrix |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/1582_SpecialPositionsInaBinaryMatrix/BruteForce.cpp) / [RowColSum](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/1582_SpecialPositionsInaBinaryMatrix/RowColSum.cpp) |
 | 1680 | Concatenation of Consecutive Binary Numbers |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/1680_ConcatenationOfConsecutiveBinaryNumbers_BruteForce.cpp) |
 | 1758 | Minimum Changes To Make Alternating Binary String |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1758_MinimumChangesToMakeAlternatingBinaryString_BruteForce.cpp) |
