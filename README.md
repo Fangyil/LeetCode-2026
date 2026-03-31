@@ -57,9 +57,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROGRESS-START -->
-🟢 Easy: 14 | 🟠 Medium: 13 | 🔴 Hard: 1
+🟢 Easy: 14 | 🟠 Medium: 14 | 🔴 Hard: 1
 <!-- PROGRESS-END -->
+
 
 
 
@@ -227,10 +229,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- TOPICS-START -->
 | Folder | Solved |
 |--------|--------|
-| [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | 10 |
+| [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | 11 |
 | Graph | 0 |
 | Greedy | 0 |
 | HashTable | 0 |
@@ -240,6 +243,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 21 |
 | Tree | 0 |
 <!-- TOPICS-END -->
+
 
 
 
@@ -482,6 +486,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROBLEMS-START -->
 | # | Title| Difficulty | Topics | Solution |
 |---|-------|------------|------------|----------|
@@ -502,6 +507,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | 0035 | Search Insert Position |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/search-insert-position/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [BinarySearch](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0035_SearchInsertPosition_BinarySearch.cpp) |
 | 0050 | Pow(x, n) |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/pow(x,-n)/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0050_Pow(x,n)/BruteForce.cpp) / [BinarySearch](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0050_Pow(x,n)/BinarySearch.cpp) |
 | 0070 | Climbing Stairs |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/climbing-stairs/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | [DP](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0070_ClimbingStairs_DP.cpp) |
+| 0074 | Search a 2D Matrix |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/search-a-2d-matrix/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [BinarySearch](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0074_Searcha2DMatrix_BinarySearch.cpp) |
 | 0167 | Two Sum II - Input Array Is Sorted |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/two-sum-ii---input-array-is-sorted/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [TwoPointers](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0167_TwoSumII-InputArrayIsSorted_TwoPointers.cpp) |
 | 0509 | Fibonacci Number |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/fibonacci-number/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | [DP](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0509_FibonacciNumber_DP.cpp) |
 | 1545 | Find Kth Bit in Nth Binary String |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1545_FindKthBitinNthBinaryString/BruteForce.cpp) / [DP](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1545_FindKthBitinNthBinaryString/DP.cpp) |
