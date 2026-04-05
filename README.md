@@ -61,9 +61,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROGRESS-START -->
-🟢 Easy: 15 | 🟠 Medium: 14 | 🔴 Hard: 2
+🟢 Easy: 15 | 🟠 Medium: 15 | 🔴 Hard: 2
 <!-- PROGRESS-END -->
+
 
 
 
@@ -239,6 +241,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- TOPICS-START -->
 | Folder | Solved |
 |--------|--------|
@@ -246,12 +249,13 @@ This repository records my LeetCode practice and solutions in 2026.
 | Graph | 0 |
 | Greedy | 0 |
 | HashTable | 0 |
-| [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList) | 2 |
+| [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList) | 3 |
 | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | 7 |
 | [Stack](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Stack) | 2 |
 | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 21 |
 | Tree | 0 |
 <!-- TOPICS-END -->
+
 
 
 
@@ -502,10 +506,12 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROBLEMS-START -->
 | # | Title| Difficulty | Topics | Solution |
 |---|-------|------------|------------|----------|
 | 0001 | Two Sum |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/two-sum/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [TwoPointers](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0001_TwoSum_TwoPointers.cpp) |
+| 0002 | Add Two Numbers |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/add-two-numbers/) | [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList/0002_AddTwoNumbers_BruteForce.cpp) |
 | 0003 | Longest Substring Without Repeating Characters |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0003_LongestSubstringWithoutRepeatingCharacters/BruteForce.cpp) / [BruteForceUpdate](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0003_LongestSubstringWithoutRepeatingCharacters/BruteForceUpdate.cpp) / [SlidingWindow](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0003_LongestSubstringWithoutRepeatingCharacters/SlidingWindow.cpp) |
 | 0004 | Median of Two Sorted Arrays |[![Hard](https://img.shields.io/badge/%20Hard%20-red)](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0004_MedianofTwoSortedArrays/BruteForce.cpp) / [Optimized](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0004_MedianofTwoSortedArrays/Optimized.cpp) |
 | 0005 | Longest Palindromic Substring |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/longest-palindromic-substring/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0005_LongestPalindromicSubstring/BruteForce.cpp) / [DP](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0005_LongestPalindromicSubstring/DP.cpp) / [ExpandAroundCenter_Original](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0005_LongestPalindromicSubstring/ExpandAroundCenter_Original.cpp) / [ExpandAroundCenter_SpeedUp](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0005_LongestPalindromicSubstring/ExpandAroundCenter_SpeedUp.cpp) / [ExpandAroundCenter_TidyUp](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0005_LongestPalindromicSubstring/ExpandAroundCenter_TidyUp.cpp) |
