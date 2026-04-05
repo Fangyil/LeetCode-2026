@@ -62,9 +62,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROGRESS-START -->
-🟢 Easy: 15 | 🟠 Medium: 15 | 🔴 Hard: 2
+🟢 Easy: 15 | 🟠 Medium: 16 | 🔴 Hard: 2
 <!-- PROGRESS-END -->
+
 
 
 
@@ -242,10 +244,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- TOPICS-START -->
 | Folder | Solved |
 |--------|--------|
-| [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | 12 |
+| [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | 13 |
 | Graph | 0 |
 | Greedy | 0 |
 | HashTable | 0 |
@@ -255,6 +258,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 21 |
 | Tree | 0 |
 <!-- TOPICS-END -->
+
 
 
 
@@ -507,6 +511,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROBLEMS-START -->
 | # | Title| Difficulty | Topics | Solution |
 |---|-------|------------|------------|----------|
@@ -521,6 +526,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | 0009 | Palindrome Number |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/palindrome-number/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0009_PalindromeNumber_String.cpp) |
 | 0013 | Roman to Integer |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/roman-to-integer/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | [HashTable](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0013_RomantoInteger/HashTable.cpp) / [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0013_RomantoInteger/String.cpp) |
 | 0014 | Longest Common Prefix |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/longest-common-prefix/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0014_LongestCommonPrefix_String.cpp) |
+| 0015 | 3Sum |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/3sum/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [TwoPointers](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0015_3Sum_TwoPointers.cpp) |
 | 0020 | Valid Parentheses |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/valid-parentheses/) | [Stack](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Stack) | [Stack](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Stack/0020_ValidParentheses_Stack.cpp) |
 | 0021 | Merge Two Sorted Lists |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/merge-two-sorted-lists/) | [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList) | [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList/0021_MergeTwoSortedLists_LinkedList.cpp) |
 | 0023 | Merge k Sorted Lists |[![Hard](https://img.shields.io/badge/%20Hard%20-red)](https://leetcode.com/problems/merge-k-sorted-lists/) | [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList/0023_MergekSortedLists_BruteForce.cpp) |
