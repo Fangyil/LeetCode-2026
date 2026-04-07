@@ -64,9 +64,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROGRESS-START -->
-🟢 Easy: 15 | 🟠 Medium: 16 | 🔴 Hard: 3
+🟢 Easy: 16 | 🟠 Medium: 16 | 🔴 Hard: 3
 <!-- PROGRESS-END -->
+
 
 
 
@@ -248,10 +250,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- TOPICS-START -->
 | Folder | Solved |
 |--------|--------|
-| [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | 13 |
+| [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | 14 |
 | Graph | 0 |
 | Greedy | 0 |
 | HashTable | 0 |
@@ -261,6 +264,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 21 |
 | Tree | 0 |
 <!-- TOPICS-END -->
+
 
 
 
@@ -517,6 +521,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROBLEMS-START -->
 | # | Title| Difficulty | Topics | Solution |
 |---|-------|------------|------------|----------|
@@ -537,6 +542,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | 0023 | Merge k Sorted Lists |[![Hard](https://img.shields.io/badge/%20Hard%20-red)](https://leetcode.com/problems/merge-k-sorted-lists/) | [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList/0023_MergekSortedLists_BruteForce.cpp) |
 | 0025 | Reverse Nodes in k-Group |[![Hard](https://img.shields.io/badge/%20Hard%20-red)](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList/0025_ReverseNodesink-Group_BruteForce.cpp) |
 | 0026 | Remove Duplicates from Sorted Array |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0026_RemoveDuplicatesfromSortedArray_BruteForce.cpp) |
+| 0027 | Remove Element |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/remove-element/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [TwoPointers](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0027_RemoveElement_TwoPointers.cpp) |
 | 0029 | Divide Two Integers |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/divide-two-integers/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0029_DivideTwoIntegers_BruteForce.cpp) |
 | 0034 | Find First and Last Position of Element in Sorted Array |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [BinarySearch](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0034_FindFirstandLastPositionofElementinSortedArray_BinarySearch.cpp) |
 | 0035 | Search Insert Position |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/search-insert-position/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [BinarySearch](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0035_SearchInsertPosition_BinarySearch.cpp) |
