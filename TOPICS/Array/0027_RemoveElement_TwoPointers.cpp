@@ -1,4 +1,4 @@
-// Runtime: 0ms, beats: 100%
+// Runtime: 0ms, beats: 100.00%
 
 #include <iostream>
 using namespace std;
