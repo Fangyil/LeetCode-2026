@@ -69,9 +69,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROGRESS-START -->
 🟢 Easy: 16 | 🟠 Medium: 19 | 🔴 Hard: 3
 <!-- PROGRESS-END -->
+
 
 
 
@@ -135,6 +137,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 ## Topics Cover
+
 
 
 
@@ -406,10 +409,12 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 ---
 
 
 ## Problem List
+
 
 
 
@@ -567,7 +572,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | 0029 | Divide Two Integers |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/divide-two-integers/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0029_DivideTwoIntegers_BruteForce.cpp) |
 | 0034 | Find First and Last Position of Element in Sorted Array |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [BinarySearch](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0034_FindFirstandLastPositionofElementinSortedArray_BinarySearch.cpp) |
 | 0035 | Search Insert Position |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/search-insert-position/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [BinarySearch](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0035_SearchInsertPosition_BinarySearch.cpp) |
-| 0038 | Count and Say |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/count-and-say/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0038_CountandSay_BruteForce.cpp) |
+| 0038 | Count and Say |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/count-and-say/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/0038_CountandSay/BruteForce.cpp) |
 | 0046 | Permutations |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/permutations/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [Backtracking](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0046_Permutations_Backtracking.cpp) |
 | 0050 | Pow(x, n) |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/pow(x,-n)/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0050_Pow(x,n)/BruteForce.cpp) / [BinarySearch](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0050_Pow(x,n)/BinarySearch.cpp) |
 | 0070 | Climbing Stairs |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/climbing-stairs/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | [DP](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0070_ClimbingStairs_DP.cpp) |
