@@ -4,8 +4,7 @@ import re
 # ==== 配置區 ====
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 README_FILE = os.path.join(ROOT_DIR, "README.md")
-FOLDERS = ["Array", "Graph",
-           "Greedy", "HashTable", "LinkedList", "Math", "Stack", "String", "Tree"]
+FOLDERS = ["Array", "Graph", "HashTable", "LinkedList", "Math", "Stack", "String", "Tree"]
 
 PROGRESS_START = "<!-- TOPICS-START -->"
 PROGRESS_END = "<!-- TOPICS-END -->"
