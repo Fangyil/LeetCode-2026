@@ -79,9 +79,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROGRESS-START -->
-🟢 Easy: 17 | 🟠 Medium: 20 | 🔴 Hard: 3
+🟢 Easy: 17 | 🟠 Medium: 21 | 🔴 Hard: 3
 <!-- PROGRESS-END -->
+
 
 
 
@@ -293,10 +295,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- TOPICS-START -->
 | Folder | Solved |
 |--------|--------|
-| [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | 17 |
+| [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | 18 |
 | Graph | 0 |
 | HashTable | 0 |
 | [LinkedList](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/LinkedList) | 5 |
@@ -305,6 +308,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | 23 |
 | Tree | 0 |
 <!-- TOPICS-END -->
+
 
 
 
@@ -591,6 +595,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROBLEMS-START -->
 | # | Title| Difficulty | Topics | Solution |
 |---|-------|------------|------------|----------|
@@ -633,5 +638,6 @@ This repository records my LeetCode practice and solutions in 2026.
 | 1784 | Check if Binary String Has at Most One Segment of Ones |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1784_CheckifBinaryStringHasatMostOneSegmentofOnes_String.cpp) |
 | 1980 | Find Unique Binary String |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/find-unique-binary-string/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | [Optimized](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1980_FindUniqueBinaryString_Optimized.cpp) |
 | 2390 | Removing Stars From a String |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/removing-stars-from-a-string/) | [Stack](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Stack) | [Stack](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Stack/2390_RemovingStarsFromaString/Stack.cpp) |
+| 2410 | Maximum Matching of Players With Trainers |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [TwoPointers](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/2410_MaximumMatchingofPlayersWithTrainers_TwoPointers.cpp) |
 | 3643 | Flip Square Submatrix Vertically |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/flip-square-submatrix-vertically/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/3643_FlipSquareSubmatrixVertically/BruteForce.cpp) / [Optimized](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/3643_FlipSquareSubmatrixVertically/Optimized.cpp) |
 <!-- PROBLEMS-END -->
