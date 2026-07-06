@@ -1,4 +1,4 @@
-// Runtime: 31ms, beats: 40.46%
+// Runtime: 24ms, beats: 89.00%
 class Solution {
 public:
     int matchPlayersAndTrainers(vector<int>& players, vector<int>& trainers) {
@@ -10,7 +10,7 @@ public:
         sort(trainers.begin(), trainers.end());
 
         while (i < players.size() && j < trainers.size()) {
-            if (players[i] < trainers[j] || players[i] == trainers[j]) {
+            if (players[i] <= trainers[j]) {
                 count++;
                 i++;
             }
