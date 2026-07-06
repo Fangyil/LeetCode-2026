@@ -75,9 +75,11 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 <!-- PROGRESS-START -->
 🟢 Easy: 17 | 🟠 Medium: 20 | 🔴 Hard: 3
 <!-- PROGRESS-END -->
+
 
 
 
@@ -147,6 +149,7 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 ## Topics Cover
+
 
 
 
@@ -430,10 +433,12 @@ This repository records my LeetCode practice and solutions in 2026.
 
 
 
+
 ---
 
 
 ## Problem List
+
 
 
 
@@ -604,7 +609,7 @@ This repository records my LeetCode practice and solutions in 2026.
 | 0070 | Climbing Stairs |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/climbing-stairs/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | [DP](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0070_ClimbingStairs_DP.cpp) |
 | 0074 | Search a 2D Matrix |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/search-a-2d-matrix/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [BinarySearch](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0074_Searcha2DMatrix_BinarySearch.cpp) |
 | 0167 | Two Sum II - Input Array Is Sorted |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/two-sum-ii---input-array-is-sorted/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [TwoPointers](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/0167_TwoSumII-InputArrayIsSorted_TwoPointers.cpp) |
-| 0392 | Is Subsequence |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/is-subsequence/) | [Greedy](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Greedy) | [Greedy](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Greedy/0392_Is Subsequence_Greedy.cpp) |
+| 0392 | Is Subsequence |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/is-subsequence/) | [Greedy](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Greedy) | [Is Subsequence](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Greedy/0392_Is Subsequence.cpp) |
 | 0509 | Fibonacci Number |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/fibonacci-number/) | [Math](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math) | [DP](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Math/0509_FibonacciNumber_DP.cpp) |
 | 1545 | Find Kth Bit in Nth Binary String |[![Medium](https://img.shields.io/badge/Medium-orange)](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | [String](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1545_FindKthBitinNthBinaryString/BruteForce.cpp) / [DP](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/String/1545_FindKthBitinNthBinaryString/DP.cpp) |
 | 1582 | Special Positions in a Binary Matrix |[![Easy](https://img.shields.io/badge/%20Easy%20-green)](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | [Array](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array) | [BruteForce](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/1582_SpecialPositionsInaBinaryMatrix/BruteForce.cpp) / [RowColSum](https://github.com/Fangyil/LeetCode-2026/blob/main/TOPICS/Array/1582_SpecialPositionsInaBinaryMatrix/RowColSum.cpp) |
